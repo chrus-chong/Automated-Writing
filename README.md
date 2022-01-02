@@ -17,6 +17,6 @@ argument (k, n, filename):
 Compile in terminal and run the file with 3 input. For eg,
 ```
 javac *.java
-java ModifiedTextGenerator 100 1000 ./sampleText/Alice.txt
+java TextGenerator 100 1000 ./sampleText/Alice.txt
 ```
 Do note that the value of k represents the number of characters that appeared previously which the Markov Model looks at. As such, a small value of k, (i.e. 3) would result in incoherent text but larger values of k returns text that is coherent and flows smoothly.
